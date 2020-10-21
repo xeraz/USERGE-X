@@ -722,7 +722,8 @@ Warns: 1/3
                                     warned_user,
                                     chat_name_,
                                     reason_
-                                )
+                                ),
+                                disable_web_page_preview=True
                             ),
                             description="warning",
                             thumb_url="https://i.imgur.com/ZuS0mLb.jpg",
