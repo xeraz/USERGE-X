@@ -696,6 +696,39 @@ if userge.has_bot:
                                 reply_markup=InlineKeyboardMarkup(buttons)
                             )
                     )
+                            
+            if str_y[0] =="warn_":
+                warn_data = str_y[1].split('|')
+                warned_user = warn_data[0]
+                chat_name_ = warn_data[1]
+                reason = warn_data[2]
+                owner_ = await userge.get_me()
+                owner_link = f"[{owner_.first_name}](https://t.me/{owner_.username})"
+                warn_text = """
+<b>{}</b> has warned {} in {}
+Reason: <code>{}</code>
+Warns: 1/3
+"""
+                buttons = [[
+                    InlineKeyboardButton("⚠️  Remove Warn", callback_data=f"warns_{inline_query.id}"),
+                    InlineKeyboardButton("📝  Rules", url="https://t.me/useless_x/22")
+                ]]
+                results.append(
+                        InlineQueryResultArticle(
+                            title="Just A Test lol",
+                            input_message_content=InputTextMessageContent(
+                                warn_text.format(
+                                    owner_link,
+                                    warned_user,
+                                    chat_name_,
+                                    reason_
+                                )
+                            ),
+                            description="warning",
+                            thumb_url="https://i.imgur.com/ZuS0mLb.jpg",
+                            reply_markup=InlineKeyboardMarkup(buttons)
+                        )
+                )
 
             if string =="repo":        
                 results.append(REPO_X)
