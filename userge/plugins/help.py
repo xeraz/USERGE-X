@@ -701,7 +701,7 @@ if userge.has_bot:
                 warn_data = str_y[1].split('|')
                 warned_user = warn_data[0]
                 chat_name_ = warn_data[1]
-                reason = warn_data[2]
+                reason_ = warn_data[2]
                 owner_ = await userge.get_me()
                 owner_link = f"[{owner_.first_name}](https://t.me/{owner_.username})"
                 warn_text = """
