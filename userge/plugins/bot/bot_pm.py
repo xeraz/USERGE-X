@@ -121,7 +121,7 @@ Nice To Meet You! I'm **{bot.first_name}** A Bot.
                 caption=caption_text,
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("CONTACT", url=f"t.me/{u_n}"),
-                    InlineKeyboardButton("REPO", url="https://github.com/code-rgb/USERGE-X")],
+                    InlineKeyboardButton("CONTACT 2", url="https://t.me/RCage")],
                     [InlineKeyboardButton("➕ ADD TO GROUP", callback_data="add_to_grp")
                     ]]
                 )
