@@ -54,8 +54,7 @@ REPO_X = InlineQueryResultArticle(
                             url="https://telegra.ph/file/c1270db49f855c566d6fa.mp4"),
                             InlineKeyboardButton(
                             "🚀 Deploy USERGE-X",
-                            url=("https://telegra.ph/file/
-                            "c1270db49f855c566d6fa.mp4")
+                            url=("https://telegra.ph/file/c1270db49f855c566d6fa.mp4")
                             )
                         ]]
                     )
