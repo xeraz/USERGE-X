@@ -44,18 +44,18 @@ REPO_X = InlineQueryResultArticle(
                     title="Repo",
                     input_message_content=InputTextMessageContent(
                         "**Here's how to setup USERGE-X** "),
-                    url="https://github.com/code-rgb/USERGE-X",
+                    url="https://telegra.ph/file/c1270db49f855c566d6fa.mp4",
                     description="Setup Your Own",
-                    thumb_url="https://i.imgur.com/1xsOo9o.png",
+                    thumb_url="https://telegra.ph/file/f3d1268838a03c991841a.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         [[
                             InlineKeyboardButton(                  
                             "🔥 USERGE-X Repo",
-                            url="https://github.com/code-rgb/USERGE-X"),
+                            url="https://telegra.ph/file/c1270db49f855c566d6fa.mp4"),
                             InlineKeyboardButton(
                             "🚀 Deploy USERGE-X",
-                            url=("https://heroku.com/deploy?template="
-                            "https://github.com/code-rgb/USERGE-X/tree/alpha")
+                            url=("https://telegra.ph/file/
+                            "c1270db49f855c566d6fa.mp4")
                             )
                         ]]
                     )
